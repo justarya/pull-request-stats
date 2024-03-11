@@ -48131,7 +48131,7 @@ module.exports = JSON.parse('{"slack":{"logs":{"notConfigured":"Slack integratio
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"title":"Pull reviewers stats","icon":"https://s3.amazonaws.com/manuelmhtr.assets/flowwer/logo/logo-1024px.png","subtitle":{"one":"Stats of the last day for {{sources}}","other":"Stats of the last {{count}} days for {{sources}}"},"sources":{"separator":", ","fullList":"{{firsts}} and {{last}}","andOthers":"{{firsts}} and {{count}} others"},"columns":{"avatar":"","username":"User","timeToReview":"Time to review","totalReviews":"Total reviews","totalComments":"Total comments","totalReviewsPerPrs":"Total reviews of PRs"},"footer":"<sup>⚡️ [Pull request stats](https://bit.ly/pull-request-stats)</sup>"}');
+module.exports = JSON.parse('{"title":"Pull reviewers stats","icon":"https://s3.amazonaws.com/manuelmhtr.assets/flowwer/logo/logo-1024px.png","subtitle":{"one":"Stats of the last day for {{sources}}","other":"Stats of the last {{count}} days for {{sources}}"},"sources":{"separator":", ","fullList":"{{firsts}} and {{last}}","andOthers":"{{firsts}} and {{count}} others"},"columns":{"avatar":"","username":"User","timeToReview":"Time to review","totalReviews":"Total reviews","totalComments":"Total comments","totalReviewsPerPrs":"Total reviews per PRs"},"footer":"<sup>⚡️ [Pull request stats](https://bit.ly/pull-request-stats)</sup>"}');
 
 /***/ })
 
