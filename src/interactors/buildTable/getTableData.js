@@ -99,7 +99,7 @@ module.exports = ({
     const result = {
       avatar,
       username: `${login}${chartsData.username}`,
-      timeToReview: `${timeStr}${chartsData.timeStr}`,
+      timeToReview: `${timeStr} (${stats.timeToReview / 1000} seconds)${chartsData.timeStr}`,
       totalReviews: `${reviewsStr}${chartsData.reviewsStr}`,
       totalComments: `${commentsStr}${chartsData.commentsStr}`,
     };

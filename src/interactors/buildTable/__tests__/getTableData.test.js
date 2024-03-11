@@ -37,14 +37,14 @@ const SIMPLE_RESPONSE = [
   {
     avatar: AVATAR1,
     username: 'user1',
-    timeToReview: '[34m](https://app.flowwer.dev/charts/review-time/1)',
+    timeToReview: '[34m](https://app.flowwer.dev/charts/review-time/1) (2052.5 seconds)',
     totalReviews: '4',
     totalComments: '1',
   },
   {
     avatar: AVATAR2,
     username: 'user2',
-    timeToReview: '[2h 21m](https://app.flowwer.dev/charts/review-time/2)',
+    timeToReview: '[2h 21m](https://app.flowwer.dev/charts/review-time/2) (8465 seconds)',
     totalReviews: '1',
     totalComments: '5',
   },
@@ -55,7 +55,7 @@ const CHARTS_RESPONSE = [
   {
     avatar: AVATAR1_BIG,
     username: 'user1<br/>🥇',
-    timeToReview: '[**34m**](https://app.flowwer.dev/charts/review-time/1)<br/>▀▀',
+    timeToReview: '[**34m**](https://app.flowwer.dev/charts/review-time/1) (2052.5 seconds)<br/>▀▀',
     totalReviews: '**4**<br/>▀▀▀▀▀▀▀▀',
     totalComments: '1<br/>▀▀',
     totalReviewsPerPrs: undefined,
@@ -63,7 +63,7 @@ const CHARTS_RESPONSE = [
   {
     avatar: AVATAR2_BIG,
     username: 'user2<br/>🥈',
-    timeToReview: '[2h 21m](https://app.flowwer.dev/charts/review-time/2)<br/>▀▀▀▀▀▀▀▀',
+    timeToReview: '[2h 21m](https://app.flowwer.dev/charts/review-time/2) (8465 seconds)<br/>▀▀▀▀▀▀▀▀',
     totalReviews: '1<br/>▀▀',
     totalComments: '**5**<br/>▀▀▀▀▀▀▀▀',
     totalReviewsPerPrs: undefined,
@@ -75,14 +75,14 @@ const NO_LINKS_RESPONSE = [
   {
     avatar: AVATAR1,
     username: 'user1',
-    timeToReview: '34m',
+    timeToReview: '34m (2052.5 seconds)',
     totalReviews: '4',
     totalComments: '1',
   },
   {
     avatar: AVATAR2,
     username: 'user2',
-    timeToReview: '2h 21m',
+    timeToReview: '2h 21m (8465 seconds)',
     totalReviews: '1',
     totalComments: '5',
   },
@@ -93,14 +93,14 @@ const CHARTS_NO_LINKS_RESPONSE = [
   {
     avatar: AVATAR1_BIG,
     username: 'user1<br/>🥇',
-    timeToReview: '**34m**<br/>▀▀',
+    timeToReview: '**34m** (2052.5 seconds)<br/>▀▀',
     totalReviews: '**4**<br/>▀▀▀▀▀▀▀▀',
     totalComments: '1<br/>▀▀',
   },
   {
     avatar: AVATAR2_BIG,
     username: 'user2<br/>🥈',
-    timeToReview: '2h 21m<br/>▀▀▀▀▀▀▀▀',
+    timeToReview: '2h 21m (8465 seconds)<br/>▀▀▀▀▀▀▀▀',
     totalReviews: '1<br/>▀▀',
     totalComments: '**5**<br/>▀▀▀▀▀▀▀▀',
   },
@@ -111,7 +111,7 @@ const REVIEW_PER_PR_RESPONSE = [
   {
     avatar: AVATAR1_BIG,
     username: 'user1<br/>🥇',
-    timeToReview: '[**34m**](https://app.flowwer.dev/charts/review-time/1)<br/>▀▀',
+    timeToReview: '[**34m**](https://app.flowwer.dev/charts/review-time/1) (2052.5 seconds)<br/>▀▀',
     totalReviews: '**4**<br/>▀▀▀▀▀▀▀▀',
     totalComments: '1<br/>▀▀',
     totalReviewsPerPrs: '4/5 (80%)<br/>▀▀▀▀▀▀▀▀',
@@ -119,7 +119,7 @@ const REVIEW_PER_PR_RESPONSE = [
   {
     avatar: AVATAR2_BIG,
     username: 'user2<br/>🥈',
-    timeToReview: '[2h 21m](https://app.flowwer.dev/charts/review-time/2)<br/>▀▀▀▀▀▀▀▀',
+    timeToReview: '[2h 21m](https://app.flowwer.dev/charts/review-time/2) (8465 seconds)<br/>▀▀▀▀▀▀▀▀',
     totalReviews: '1<br/>▀▀',
     totalComments: '**5**<br/>▀▀▀▀▀▀▀▀',
     totalReviewsPerPrs: '1/5 (20%)<br/>▀▀',
@@ -130,7 +130,7 @@ const REVIEW_PER_PR_NO_LINKS_RESPONSE = [
   {
     avatar: AVATAR1_BIG,
     username: 'user1<br/>🥇',
-    timeToReview: '**34m**<br/>▀▀',
+    timeToReview: '**34m** (2052.5 seconds)<br/>▀▀',
     totalReviews: '**4**<br/>▀▀▀▀▀▀▀▀',
     totalComments: '1<br/>▀▀',
     totalReviewsPerPrs: '4/5 (80%)<br/>▀▀▀▀▀▀▀▀',
@@ -138,7 +138,7 @@ const REVIEW_PER_PR_NO_LINKS_RESPONSE = [
   {
     avatar: AVATAR2_BIG,
     username: 'user2<br/>🥈',
-    timeToReview: '2h 21m<br/>▀▀▀▀▀▀▀▀',
+    timeToReview: '2h 21m (8465 seconds)<br/>▀▀▀▀▀▀▀▀',
     totalReviews: '1<br/>▀▀',
     totalComments: '**5**<br/>▀▀▀▀▀▀▀▀',
     totalReviewsPerPrs: '1/5 (20%)<br/>▀▀',
