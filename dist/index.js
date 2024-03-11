@@ -48212,7 +48212,7 @@ const getParams = () => {
     publishAs: core.getInput('publishAs') || core.getInput('publish-as'),
     periodLength: getPeriod(),
     displayCharts: core.getBooleanInput('charts'),
-    displayTotalReviewsPerPrs: core.getBooleanInput('totalReviewsPerPrs') || core.getBooleanInput('total-reviews-per-prs'),
+    displayTotalReviewsPerPrs: core.getBooleanInput('displayTotalReviewsPerPrs') || core.getBooleanInput('display-total-reviews-per-prs'),
     disableLinks: core.getBooleanInput('disableLinks') || core.getBooleanInput('disable-links'),
     pullRequestId: getPrId(),
     limit: parseInt(core.getInput('limit'), 10),
